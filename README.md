@@ -26,7 +26,7 @@ Stilare il layout nei dettagli con Sass
     ('Trenitalia', 'Roma Termini', 'Milano Centrale', '2024-09-25 08:00:00', '2024-09-25 12:00:00', 'TR12345', 8, true, false),
     ('Italo', 'Napoli Centrale', 'Venezia Mestre', '2024-09-26 10:30:00', '2024-09-26 14:30:00', 'IT67890', 10, true, false);
 - creo il modello trains.php che rappresenterà l'omomima tabella
-
+- creo il file TrainController.php e lo imposto  per visualizzare i treni in partenza dalla data odierna
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
