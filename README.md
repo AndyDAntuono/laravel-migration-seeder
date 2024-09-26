@@ -28,6 +28,7 @@ Stilare il layout nei dettagli con Sass
 - creo il modello trains.php che rappresenterà l'omomima tabella
 - creo il file TrainController.php e lo imposto  per visualizzare i treni in partenza dalla data odierna
 - cancello welcome.blade.php e al suo creo il file home.blade.php. In quest'ultimo compilo una struttura html che fornisca un output visivo per la view di trains
+- imposto una nuova route per far visualizzare la tabella con i relativi dati dei treni
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
