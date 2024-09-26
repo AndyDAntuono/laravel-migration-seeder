@@ -20,6 +20,13 @@ Stilare il layout nei dettagli con Sass
 - Avvio una migration per ottenere la tabella "trains"
 - inserisco nella tabella trains i campi richiesti
 - lancio il comando php artisian migrate per creare la tabella "trains" nel database
+- in phpMyAdmin, inserisco i dati nella cartella trains traite l'inserimento di una query SQL che recita:
+    INSERT INTO trains (azienda, stazione_partenza, stazione_arrivo, orario_partenza, orario_arrivo, codice_treno, numero_carrozze, in_orario, cancellato) 
+    VALUES 
+    ('Trenitalia', 'Roma Termini', 'Milano Centrale', '2024-09-25 08:00:00', '2024-09-25 12:00:00', 'TR12345', 8, true, false),
+    ('Italo', 'Napoli Centrale', 'Venezia Mestre', '2024-09-26 10:30:00', '2024-09-26 14:30:00', 'IT67890', 10, true, false);
+- creo il modello trains.php che rappresenterà l'omomima tabella
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
